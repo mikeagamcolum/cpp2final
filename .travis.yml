@@ -3,9 +3,17 @@ compiler: gcc
 addons:
   apt:
     packages:
-    - g++-6
     - cmake
+    - libgtest-dev
 before_install:
-- cd build
+ - sudo wget https://github.com/google/googletest/archive/release-1.10.0.tar.gz
+ - sudo tar xf release-1.10.0.tar.gz
+ - cd googletest-release-1.10.0
+ - sudo cmake -DBUILD_SHARED_LIBS=ON .
+ - sudo make
+ - sudo cp -a include/gtest $TRAVIS_BUILD_DIR
 script:
+- mkdir -p build
+- cd build
+- cmake ..
 - make
