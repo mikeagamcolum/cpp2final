@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++17 -Wall -Wextra -Werror -pthread  -rdynamic CMakeFiles/0429.dir/src/main.cpp.o CMakeFiles/0429.dir/src/funcs.cpp.o  -o 0429 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++17 -Wall -Wextra -Werror -pthread  -rdynamic CMakeFiles/cppfinal-tests.dir/test/tests.cpp.o CMakeFiles/cppfinal-tests.dir/src/card.cpp.o  -o cppfinal-tests  -lpthread libgtest.a 

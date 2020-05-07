@@ -1,0 +1,5 @@
+/home/daedalus/Documents/CPPFinal-ProjectFolder/build/CMakeFiles/rebuild_cache.dir
+/home/daedalus/Documents/CPPFinal-ProjectFolder/build/CMakeFiles/edit_cache.dir
+/home/daedalus/Documents/CPPFinal-ProjectFolder/build/CMakeFiles/cppfinal-tests.dir
+/home/daedalus/Documents/CPPFinal-ProjectFolder/build/CMakeFiles/cppfinal.dir
+/home/daedalus/Documents/CPPFinal-ProjectFolder/build/CMakeFiles/gtest.dir

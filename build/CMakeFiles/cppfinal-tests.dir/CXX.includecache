@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/daedalus/Documents/CPPFinal-ProjectFolder/src/card.cpp
+card.h
+/home/daedalus/Documents/CPPFinal-ProjectFolder/src/card.h
+
+/home/daedalus/Documents/CPPFinal-ProjectFolder/src/card.h
+iostream
+-
+vector
+-
+

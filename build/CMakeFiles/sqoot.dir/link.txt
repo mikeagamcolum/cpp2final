@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++17 -Wall -Wextra -Werror -pthread  -rdynamic CMakeFiles/sqoot.dir/src/main.cpp.o CMakeFiles/sqoot.dir/src/funcs.cpp.o  -o sqoot 
