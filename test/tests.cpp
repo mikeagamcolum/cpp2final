@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "../src/funcs.h"
+#include "../src/card.h"
 
 TEST(rankVersus, PerfectHandEqualsOne) {
     ASSERT_EQ(Card(8, HEARTS).rankVersus({Card(JACK, HEARTS), Card(JACK, DIAMONDS), Card(ACE, HEARTS), Card(KING, HEARTS), Card(QUEEN, HEARTS)}), 1);
