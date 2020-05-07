@@ -5,6 +5,7 @@ addons:
     packages:
     - g++-6
     - cmake
+    - googletest
 script:
 - mkdir -p build
 - cd build
