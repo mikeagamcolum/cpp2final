@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=c++17 -Wall -Wextra -Werror -pthread  -rdynamic CMakeFiles/sqoot-tests.dir/test/tests.cpp.o CMakeFiles/sqoot-tests.dir/src/funcs.cpp.o  -o sqoot-tests  -lpthread libgtest.a 

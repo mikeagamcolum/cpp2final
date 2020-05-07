@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=c++17 -Wall -Wextra -Werror -pthread  -rdynamic CMakeFiles/cppfinal.dir/src/main.cpp.o CMakeFiles/cppfinal.dir/src/card.cpp.o  -o cppfinal 
