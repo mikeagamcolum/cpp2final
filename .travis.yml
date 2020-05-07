@@ -11,6 +11,8 @@ before_install:
  - sudo tar xf release-1.10.0.tar.gz
  - cd googletest-release-1.10.0
  - sudo cmake
+ - mkdir -p build
+ - cd build
  - sudo make
  - sudo cp -a include/gtest /usr/include
  - sudo cp -a libgtest_main.so libgtest.so /usr/lib/
