@@ -5,6 +5,7 @@ addons:
     packages:
     - g++-6
     - cmake
-script:
+before_install:
 - cd build
+script:
 - make
